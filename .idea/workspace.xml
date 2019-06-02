@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7cf76ea-01ff-414f-a787-0bd96628ca96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ddc_server/src/main/java/com/ddc/server/controller/InformationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="98" column="34" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="34" />
+            <state relative-caret-position="263">
+              <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,6 +189,7 @@
     <option name="width" value="1095" />
     <option name="height" value="1100" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -437,8 +438,16 @@
       <workItem from="1559410440914" duration="771000" />
       <workItem from="1559412378413" duration="4551000" />
       <workItem from="1559424156590" duration="8597000" />
-      <workItem from="1559459249617" duration="257000" />
+      <workItem from="1559459249617" duration="1121000" />
     </task>
+    <task id="LOCAL-00001" summary="qinjinni">
+      <created>1559459752610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559459752610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -465,10 +474,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103387000" />
+    <option name="totallyTimeSpent" value="104251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -544,6 +554,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qinjinni" />
+    <option name="LAST_COMMIT_MESSAGE" value="qinjinni" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -918,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ddc_server/src/main/java/com/ddc/server/controller/InformationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="98" column="34" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="34" />
+        <state relative-caret-position="263">
+          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
