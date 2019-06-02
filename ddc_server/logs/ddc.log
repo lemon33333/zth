@@ -1,0 +1,324 @@
+2019-05-30 11:05:24,376 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 9596 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:05:24,379 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:05:24,380 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:05:30,116 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$85845e8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:30,353 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a60ace56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:30,435 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$37adae1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:30,475 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:30,507 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:32,146 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:32,201 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$258b1b88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:05:34,949 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 932] {dataSource-1} inited
+2019-05-30 11:05:36,697 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskExecutor'
+2019-05-30 11:05:36,706 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService
+2019-05-30 11:05:36,709 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskAsyncPool'
+2019-05-30 11:05:38,521 [INFO] [main] o.s.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 61] Adding welcome page template: index
+2019-05-30 11:05:39,436 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 59] Started DDCInformationMapperTest in 16.895 seconds (JVM running for 20.096)
+2019-05-30 11:05:39,457 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 39] @Pass:[Constant.URLInfo(url=/index, className=com.ddc.server.controller.IndexController, pass=true, method=index, methodType=org.springframework.web.bind.annotation.RequestMapping)]
+2019-05-30 11:05:39,458 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 40] @Pass size:1
+2019-05-30 11:05:40,948 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO ddc_information ( id, article_title, simple_title, classify_id, title_type, sort, keyword ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-30 11:05:41,243 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 1133932461491785729(Long), 1111(String), 1111(String), 1(Long), 323434(String), 0(Integer), 224(String)
+2019-05-30 11:05:41,528 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskAsyncPool'
+2019-05-30 11:05:41,529 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskExecutor'
+2019-05-30 11:05:41,536 [INFO] [Thread-2] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1712] {dataSource-1} closed
+2019-05-30 11:11:40,381 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 12392 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:11:40,395 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:11:40,400 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:11:44,565 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$403c55ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:44,847 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60c2c574] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:44,917 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$f265a53c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:44,988 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:45,017 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:46,513 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:46,559 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e04312a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:11:49,036 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 932] {dataSource-1} inited
+2019-05-30 11:11:50,562 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskExecutor'
+2019-05-30 11:11:50,570 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService
+2019-05-30 11:11:50,572 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskAsyncPool'
+2019-05-30 11:11:52,014 [INFO] [main] o.s.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 61] Adding welcome page template: index
+2019-05-30 11:11:52,897 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 59] Started DDCInformationMapperTest in 15.311 seconds (JVM running for 18.936)
+2019-05-30 11:11:52,916 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 39] @Pass:[Constant.URLInfo(url=/index, className=com.ddc.server.controller.IndexController, pass=true, method=index, methodType=org.springframework.web.bind.annotation.RequestMapping)]
+2019-05-30 11:11:52,917 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 40] @Pass size:1
+2019-05-30 11:11:54,330 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO ddc_information ( id, article_title, simple_title, classify_id, title_type, sort, keyword ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-30 11:11:54,536 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 1133934027573669890(Long), 1111(String), 1111(String), 1(Long), 323434(String), 0(Integer), 224(String)
+2019-05-30 11:11:54,700 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskAsyncPool'
+2019-05-30 11:11:54,701 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskExecutor'
+2019-05-30 11:11:54,711 [INFO] [Thread-2] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1712] {dataSource-1} closed
+2019-05-30 11:13:47,761 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 4520 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:13:47,764 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:13:47,765 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:13:52,721 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$85845e8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:52,996 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a60ace56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:53,101 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$37adae1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:53,145 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:53,186 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:54,867 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:54,955 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$258b1b88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:13:57,637 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 932] {dataSource-1} inited
+2019-05-30 11:13:59,470 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskExecutor'
+2019-05-30 11:13:59,481 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService
+2019-05-30 11:13:59,483 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskAsyncPool'
+2019-05-30 11:14:01,153 [INFO] [main] o.s.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 61] Adding welcome page template: index
+2019-05-30 11:14:01,917 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 59] Started DDCInformationMapperTest in 16.162 seconds (JVM running for 19.35)
+2019-05-30 11:14:01,958 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 39] @Pass:[Constant.URLInfo(url=/index, className=com.ddc.server.controller.IndexController, pass=true, method=index, methodType=org.springframework.web.bind.annotation.RequestMapping)]
+2019-05-30 11:14:01,959 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 40] @Pass size:1
+2019-05-30 11:14:03,887 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO ddc_information ( id, article_title, simple_title, classify_id, title_type, sort, keyword ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-30 11:14:04,195 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 1133934570962481153(Long), 1111(String), 1111(String), 1(Long), 323434(String), 0(Integer), 224(String)
+2019-05-30 11:14:04,370 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskAsyncPool'
+2019-05-30 11:14:04,371 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskExecutor'
+2019-05-30 11:14:04,381 [INFO] [Thread-2] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1712] {dataSource-1} closed
+2019-05-30 11:15:50,824 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 11608 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:15:50,827 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:15:50,829 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:15:55,893 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$90241e34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:15:56,217 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0aa8dfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:15:56,291 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$424d6dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:15:56,345 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:15:56,379 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:15:57,708 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:15:57,760 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$302adb2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:16:00,496 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 932] {dataSource-1} inited
+2019-05-30 11:16:02,220 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskExecutor'
+2019-05-30 11:16:02,230 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService
+2019-05-30 11:16:02,238 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskAsyncPool'
+2019-05-30 11:16:03,798 [INFO] [main] o.s.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 61] Adding welcome page template: index
+2019-05-30 11:16:04,644 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 59] Started DDCInformationMapperTest in 15.673 seconds (JVM running for 19.501)
+2019-05-30 11:16:04,659 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 39] @Pass:[Constant.URLInfo(url=/index, className=com.ddc.server.controller.IndexController, pass=true, method=index, methodType=org.springframework.web.bind.annotation.RequestMapping)]
+2019-05-30 11:16:04,660 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 40] @Pass size:1
+2019-05-30 11:16:05,660 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO ddc_information ( id, article_title, simple_title, classify_id, title_type, sort, keyword ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-30 11:16:05,979 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 1133935081719652353(Long), 1111(String), 1111(String), 1(Long), 323434(String), 0(Integer), 224(String)
+2019-05-30 11:16:06,022 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-05-30 11:16:06,049 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskAsyncPool'
+2019-05-30 11:16:06,049 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskExecutor'
+2019-05-30 11:16:06,086 [INFO] [Thread-2] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1712] {dataSource-1} closed
+2019-05-30 11:26:26,604 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 12824 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:26:26,645 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:26:26,650 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:26:32,672 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$985818c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:32,927 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8de8888] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:33,011 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4a816850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:33,069 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:33,100 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:34,374 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:34,416 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$385ed5ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:26:37,118 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 932] {dataSource-1} inited
+2019-05-30 11:26:38,699 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskExecutor'
+2019-05-30 11:26:38,708 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService
+2019-05-30 11:26:38,710 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskAsyncPool'
+2019-05-30 11:26:40,401 [INFO] [main] o.s.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 61] Adding welcome page template: index
+2019-05-30 11:26:41,297 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 59] Started DDCInformationMapperTest in 16.535 seconds (JVM running for 22.856)
+2019-05-30 11:26:41,358 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 39] @Pass:[Constant.URLInfo(url=/index, className=com.ddc.server.controller.IndexController, pass=true, method=index, methodType=org.springframework.web.bind.annotation.RequestMapping)]
+2019-05-30 11:26:41,359 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 40] @Pass size:1
+2019-05-30 11:26:42,390 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO ddc_information ( id, article_title, simple_title, classify_id, title_type, sort, keyword ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-30 11:26:42,652 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 1133937752191045633(Long), 1111(String), 1111(String), 1(Long), 323434(String), 0(Integer), 224(String)
+2019-05-30 11:26:42,725 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-05-30 11:26:42,752 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskAsyncPool'
+2019-05-30 11:26:42,753 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskExecutor'
+2019-05-30 11:26:42,764 [INFO] [Thread-2] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1712] {dataSource-1} closed
+2019-05-30 11:35:06,821 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 8520 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:35:06,870 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:35:06,872 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:35:10,524 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$403c55ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:10,721 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60c2c574] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:10,783 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$f265a53c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:10,825 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:10,845 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:11,674 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:11,714 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e04312a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:35:13,642 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 932] {dataSource-1} inited
+2019-05-30 11:35:14,670 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskExecutor'
+2019-05-30 11:35:14,677 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService
+2019-05-30 11:35:14,678 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskAsyncPool'
+2019-05-30 11:35:15,664 [INFO] [main] o.s.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 61] Adding welcome page template: index
+2019-05-30 11:35:16,210 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 59] Started DDCInformationMapperTest in 11.296 seconds (JVM running for 13.718)
+2019-05-30 11:35:16,224 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 39] @Pass:[Constant.URLInfo(url=/index, className=com.ddc.server.controller.IndexController, pass=true, method=index, methodType=org.springframework.web.bind.annotation.RequestMapping)]
+2019-05-30 11:35:16,225 [INFO] [main] com.ddc.server.config.web.PassUrlScanner [PassUrlScanner.java : 40] @Pass size:1
+2019-05-30 11:35:16,974 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO ddc_information ( id, article_title, simple_title, classify_id, title_type, sort, keyword ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-30 11:35:17,145 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 1133939910697332737(Long), 1111(String), 1111(String), 1(Long), 323434(String), 0(Integer), 224(String)
+2019-05-30 11:35:17,182 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-05-30 11:35:17,223 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskAsyncPool'
+2019-05-30 11:35:17,223 [INFO] [Thread-2] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskExecutor'
+2019-05-30 11:35:17,235 [INFO] [Thread-2] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1712] {dataSource-1} closed
+2019-05-30 11:37:07,365 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 50] Starting DDCInformationMapperTest on SC-201809160111 with PID 9124 (started by Administrator in E:\Program Files (x86)\ddc-parent\ddc_server)
+2019-05-30 11:37:07,368 [DEBUG] [main] com.ddc.server.mapper.DDCInformationMapperTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 11:37:07,369 [INFO] [main] com.ddc.server.mapper.DDCInformationMapperTest [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-30 11:37:12,233 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'transactionalConfig' of type [com.ddc.server.config.db.TransactionalConfig$$EnhancerBySpringCGLIB$$d3afaa7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:12,433 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4361a45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:12,484 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'shiroConfig' of type [com.ddc.server.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$85d8fa0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:12,531 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:12,550 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'myRealm' of type [com.ddc.server.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:13,985 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:14,082 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$73b66777] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 11:37:16,203 [WARN] [main] o.s.web.context.support.GenericWebApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'passUrlScanner': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2019-05-30 11:37:16,216 [INFO] [main] o.s.b.a.logging.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-30 11:37:16,223 [ERROR] [main] org.springframework.boot.SpringApplication [SpringApplication.java : 858] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'passUrlScanner': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:452)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:526)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 40 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:267)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 53 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/ddc/server/entity/DDCAdmin
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 62 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.ddc.server.entity.DDCAdmin
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 66 common frames omitted
+2019-05-30 11:37:17,611 [ERROR] [main] org.springframework.test.context.TestContextManager [TestContextManager.java : 250] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6aeb35e6] to prepare test instance [com.ddc.server.mapper.DDCInformationMapperTest@3bd2af5b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'passUrlScanner': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:452)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:526)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 40 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ddc.server.controller.IndexController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:267)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 53 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/ddc/server/entity/DDCAdmin
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 62 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.ddc.server.entity.DDCAdmin
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 66 common frames omitted
